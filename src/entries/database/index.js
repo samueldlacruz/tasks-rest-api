@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const { db } = require('../../../config/index');
 
+//connected db mongo
 mongoose.connect(db, {
     useCreateIndex: true,
     useNewUrlParser: true,
